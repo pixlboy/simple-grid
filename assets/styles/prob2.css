@@ -1,0 +1,14 @@
+.wrapper {
+    margin: 0 auto;
+}
+.wrapper table th{
+    cursor: pointer;
+}
+.wrapper table th.sort-asc::after{
+    content: ' [asc]';
+    font-size: 10px;
+}
+.wrapper table th.sort-desc::after{
+    content: ' [desc]';
+    font-size: 10px;
+}
